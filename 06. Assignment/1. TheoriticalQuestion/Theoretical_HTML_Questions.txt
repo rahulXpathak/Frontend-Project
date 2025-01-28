@@ -1,0 +1,82 @@
+
+HTML Assignment - Theoretical Questions and Answers
+
+Q1. What is HTML? Explain its purpose in web development.
+HTML (HyperText Markup Language) is the standard language for creating and structuring web pages. It defines the structure of a webpage using a series of elements (tags) and is used to organize content, such as text, images, and videos, on the web.
+Purpose in web development:
+- Provides structure for content (headings, paragraphs, lists, etc.).
+- Embeds multimedia (images, videos, audio).
+- Enables navigation with links.
+- Serves as the foundation for styling (CSS) and scripting (JavaScript).
+
+Q2. What are semantic HTML elements? Provide examples of three semantic tags and explain their significance.
+Semantic HTML elements clearly define their purpose and meaning, improving accessibility, SEO, and code readability.
+Examples:
+- <header>: Represents the header of a page or section.
+- <article>: Represents an independent block of content.
+- <footer>: Represents the footer of a page or section.
+Significance:
+- Enhances SEO by providing structured content.
+- Improves accessibility for assistive technologies.
+- Makes the code more readable and maintainable.
+
+Q3. What is the difference between block-level and inline elements in HTML? Provide examples.
+- Block-level elements: Occupy the full width of the parent container and start on a new line.
+  Examples: <div>, <p>, <h1>, <ul>.
+- Inline elements: Occupy only as much width as their content and do not start on a new line.
+  Examples: <span>, <a>, <img>, <strong>.
+
+Q4. What is the purpose of the <meta> tag in HTML? How is it commonly used?
+The <meta> tag provides metadata about an HTML document, which is not displayed directly on the page.
+Common uses:
+- Character encoding: <meta charset="UTF-8">
+- Viewport settings for responsiveness: <meta name="viewport" content="width=device-width, initial-scale=1.0">
+- SEO optimization: <meta name="description" content="This is a web development blog.">
+
+Q5. What is the Document Object Model (DOM), and how does it relate to HTML?
+The DOM (Document Object Model) is a programming interface for HTML and XML documents. It represents the structure of a webpage as a tree of objects, where each node corresponds to an element in the HTML document.
+Relation to HTML:
+- The DOM allows developers to manipulate the content, structure, and styles of a webpage dynamically using JavaScript.
+
+Q6. Explain the difference between <div> and <span> elements in HTML. When would you use each?
+- <div>: A block-level element used to group and structure content.
+  Use case: Dividing sections of a webpage (e.g., main content, sidebar).
+  Example:
+  <div>
+      <h1>Title</h1>
+      <p>This is a paragraph inside a div.</p>
+  </div>
+- <span>: An inline element used to style or group small parts of text or content.
+  Use case: Styling specific text within a paragraph.
+  Example:
+  <p>This is a <span style="color: red;">highlighted</span> word.</p>
+
+Q7. What is the purpose of the alt attribute in the <img> tag? Why is it important for accessibility and SEO?
+The alt attribute provides alternative text for an image.
+Importance:
+- Accessibility: Helps visually impaired users understand the image through screen readers.
+- SEO: Search engines index the alternative text, improving the page's visibility in search results.
+- Fallback: Displays text if the image fails to load.
+
+Q8. What are HTML attributes, and how do they modify elements?
+Attributes provide additional information about an element and modify its behavior or appearance.
+Example:
+<a href="https://example.com" target="_blank">Visit Example</a>
+- href: Specifies the URL.
+- target: Opens the link in a new tab.
+
+Q9. Give an example of an HTML tag with attributes.
+Example:
+<img src="image.jpg" alt="Description of the image" width="500" height="300">
+Attributes:
+- src: Specifies the image source.
+- alt: Provides alternative text for accessibility.
+- width and height: Define the dimensions.
+
+Q10. What is the difference between an absolute URL and a relative URL in HTML? Provide an example of each.
+- Absolute URL: A full web address, including the protocol (e.g., https://).
+  Example:
+  <a href="https://example.com/page.html">Visit Page</a>
+- Relative URL: Refers to a path relative to the current document's location.
+  Example:
+  <a href="/page.html">Visit Page</a>
